@@ -1,6 +1,6 @@
 export DOCKER_ORG ?= unionpos
 export DOCKER_IMAGE ?= $(DOCKER_ORG)/node
-export DOCKER_TAG ?= 10
+export DOCKER_TAG ?= 16
 export DOCKER_IMAGE_NAME ?= $(DOCKER_IMAGE):$(DOCKER_TAG)
 export DOCKER_BUILD_FLAGS =
 
