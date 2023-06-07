@@ -4,7 +4,7 @@ FROM unionpos/ubuntu:16.04
 RUN apt-get update && apt-get install -y --no-install-recommends \
 	build-essential \
 	wget \
-	&& wget -O nodesource_setup.sh https://deb.nodesource.com/setup_10.x \
+	&& wget -O nodesource_setup.sh https://deb.nodesource.com/setup_16.x \
 	&& bash nodesource_setup.sh && rm -f nodesource_setup.sh \
 	&& apt-get install -y nodejs \
 	&& apt-get purge --auto-remove -y wget \
